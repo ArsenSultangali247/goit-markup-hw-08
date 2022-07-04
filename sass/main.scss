@@ -1,0 +1,20 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+
+@import './components/components';
+@import './components/form-footer';
+@import './components/modal';
+@import './components/modal_input';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about1';
+@import './layout/about2';
+@import './layout/clients';
+@import './layout/our_team';
+@import './layout/footer';
+
+@import './pages/portfolio-examples';
+@import './pages/portfolio-filter';
