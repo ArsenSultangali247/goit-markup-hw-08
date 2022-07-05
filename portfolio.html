@@ -34,6 +34,13 @@
                     </li>
                 </ul>
             </nav>
+
+            <button type="button" class="burger-btn" data-menu-open>
+                <svg class="burger-icon" width="24" height="16">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
+
             <ul class="header-address-list">
                 <li class="header-address-list__item">
                     <a href="mailto:info@devstudio.com" class="header-address-item">
@@ -87,7 +94,23 @@
                 <ul class="hero-img-list">
                     <li class="portfolio-example">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster1.jpg" alt="Технокряк" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-1.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-1@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-1.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-1@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-1.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-1@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-1.jpg" alt="Технокряк" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
@@ -102,8 +125,23 @@
                     </li>
                     <li class="portfolio-example">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster2.jpg" alt="Постер New Orleans - Golden State" width="370"
-                                height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-2.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-2@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-2.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-2@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-2.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-2@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-2.jpg" alt="Постер New Orleans - Golden State" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -119,7 +157,23 @@
                     </li>
                     <li class="portfolio-example">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster3.jpg" alt="Ресторан Seafood" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-3.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-3@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-3.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-3@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-3.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-3@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-3.jpg" alt="Ресторан Seafood" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -135,7 +189,23 @@
                     </li>
                     <li class="portfolio-example">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster4.jpg" alt="Проект Prime" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-4.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-4@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-4.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-4@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-4.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-4@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-4.jpg" alt="Проект Prime" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -151,7 +221,23 @@
                     </li>
                     <li class="portfolio-example">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster5.jpg" alt="Проект Boxes" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-5.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-5@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-5.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-5@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-5.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-5@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-5.jpg" alt="Проект Boxes" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -167,8 +253,23 @@
                     </li>
                     <li class="portfolio-example">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster6.jpg" alt="Inspiration has no Borders" width="370"
-                                height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-6.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-6@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-6.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-6@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-6.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-6@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-6.jpg" alt="Inspiration has no Borders" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -184,7 +285,23 @@
                     </li>
                     <li class="portfolio-example-bottom">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster7.jpg" alt="Издание Limited Edition" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                ./images/desktop/portfolio/desktop-portfolio-7.jpg    1x,
+                                                ./images/desktop/portfolio/desktop-portfolio-7@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                ./images/tablet/portfolio/tablet-portfolio-7.jpg    1x,
+                                                ./images/tablet/portfolio/tablet-portfolio-7@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                ./images/mobile/portfolio/mobile-portfolio-7.jpg    1x,
+                                                ./images/mobile/portfolio/mobile-portfolio-7@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-7.jpg" alt="Издание Limited Edition" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -200,7 +317,23 @@
                     </li>
                     <li class="portfolio-example-bottom">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster8.jpg" alt="Проект LAB" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-8.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-8@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-8.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-8@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-8.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-8@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-8.jpg" alt="Проект LAB" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -216,7 +349,23 @@
                     </li>
                     <li class="portfolio-example-bottom">
                         <a href="" class="portfolio-example-link">
-                            <img src="./images/portfolio/poster9.jpg" alt="Growing Business" width="370" height="294" />
+                            <picture>
+                                <source srcset="
+                                                  ./images/desktop/portfolio/desktop-portfolio-9.jpg    1x,
+                                                  ./images/desktop/portfolio/desktop-portfolio-9@x2.jpg 2x
+                                                " media="(min-width: 1200px)" />
+                                <source srcset="
+                                                  ./images/tablet/portfolio/tablet-portfolio-9.jpg    1x,
+                                                  ./images/tablet/portfolio/tablet-portfolio-9@x2.jpg 2x
+                                                " media="(min-width: 768px)" />
+                            
+                                <source srcset="
+                                                  ./images/mobile/portfolio/mobile-portfolio-9.jpg    1x,
+                                                  ./images/mobile/portfolio/mobile-portfolio-9@x2.jpg 2x
+                                                " media="(max-width: 767px)" />
+                            
+                                <img class="portfolio_img" src="./images/mobile/portfolio/mobile-portfolio-9.jpg" alt="Growing Business" />
+                            </picture>
                             <div class="hero-img-list-hover">
                                 <div class="hero-img-list-hovered">
                                     <p class="hero-img-list-hover-desc">Ресурс предлагает комплексные предложения с разным уровнем функционала и
@@ -304,6 +453,7 @@
             </form>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

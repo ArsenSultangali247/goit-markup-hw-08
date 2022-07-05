@@ -5,8 +5,11 @@
 }
 
 .footer-container {
-    display: flex;
+    display: block;
     align-items: baseline;
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 
 .logo-footer {
@@ -15,6 +18,12 @@
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    @media screen and (min-width: 768px) {
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 0;
+        justify-content: start;
+    }
 }
 
 .logo-footer-half1 {
@@ -28,10 +37,14 @@
 .footer-address {
     margin-top: 20px;
     display: block;
+    @media screen and (min-width: 768px) {
+        justify-content: start;
+    }
 }
 
 .footer-list {
     list-style: none;
+    @media screen and (min-width: 1200px) {}
 }
 
 .footer-list-item {
@@ -55,6 +68,9 @@
     text-decoration: none;
     color: var(--primary-title-color-theme-light);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 1200px) {
+        display: inline-block;
+    }
 }
 
 .footer-address-item2 {
@@ -66,6 +82,9 @@
     color: rgba(var(--footer-address-color), 0.6);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 1200px) {
+        display: inline-block;
+    }
 }
 
 .footer-address-item3 {
@@ -77,6 +96,9 @@
     color: rgba(var(--footer-address-color), 0.6);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 1200px) {
+        display: inline-block;
+    }
 }
 
 .footer-address-item1:hover,
@@ -94,19 +116,39 @@
     color: var(--primary-title-color-theme-light);
 }
 
+.footer-address-wrapper{
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        width: 232px;
+        margin-left: 76px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 0;
+    }
+}
+
 .footer-socials {
     display: inline-block;
     align-items: baseline;
     margin-left: 70px;
+    @media screen and (min-width: 768px) {
+        display: inline-block;
+        margin-left: 165px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+    }
 }
 
 .footer-socials-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto";
+    font-style: normal;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-title-color-theme-light);
+    color: #ffffff;
 }
 
 .footer-socials-list {
