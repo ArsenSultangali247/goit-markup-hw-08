@@ -1,23 +1,25 @@
-@import './utils/variables';
-@import './utils/visually-hidden';
+@import "./utils/mixin";
+@import "./utils/placeholder";
+@import "./utils/variables";
 
-@import './base/common';
+@import "./base/base";
 
-@import './components/components';
-@import './components/form-footer';
-@import './components/modal';
-@import './components/modal_input';
-@import './components/mobile-menu';
+@import "./components/components";
+@import "./components/form_subscribe";
+@import "./components/modal";
+@import "./components/modal_input";
+@import "./components/mobile-menu";
 
-@import './layout/header';
-@import './layout/hero';
-@import './layout/about1';
-@import './layout/about2';
-@import './layout/clients';
-@import './layout/our_team';
-@import './layout/footer';
-@import './layout/navigation';
-@import './layout/logo';
+@import "./layout/header";
+@import "./layout/logo";
+@import "./layout/navigation";
+@import "./layout/hero";
+@import "./layout/qualities";
+@import "./layout/about";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./layout/footer";
 
-@import './pages/portfolio-examples';
-@import './pages/portfolio-filter';
+@import "./pages/portfolio__filter";
+@import "./pages/portfolio__cards";
+
